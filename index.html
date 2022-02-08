@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <title>The One Stop Shop</title>
-    <script src="/techAssignment/script.js"></script>
+    <script src="/techAssignment/script.js" async></script>
     <link rel="stylesheet" href="/techAssignment/style.css" />
   </head>
 
@@ -89,7 +89,7 @@
                 $200.00
               </p>
               <div class="text-center">
-                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
                 </div>
               </div>
           </div>
@@ -111,7 +111,7 @@
                 $200.00
               </p>
               <div class="text-center">
-                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
                 </div>
               </div>
           </div>
@@ -133,7 +133,7 @@
                 $200.00
               </p>
               <div class="text-center">
-                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
                 </div>
               </div>
           </div>
@@ -155,7 +155,7 @@
                 $200.00
               </p>
               <div class="text-center">
-                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
                 </div>
               </div>
           </div>
@@ -182,7 +182,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -204,7 +204,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -226,7 +226,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -248,7 +248,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -274,7 +274,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -296,7 +296,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -318,7 +318,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -340,7 +340,7 @@
               $200.00
             </p>
             <div class="text-center">
-              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              <button type="button" class="btn btnCard btn-outline-secondary btn-sm">Add</button>
               </div>
             </div>
         </div>
@@ -373,20 +373,23 @@
                 <th scope="col">Product</th>
                 <th scope="col">Quantity</th>
                 <th scope="col">Price</th>
+                <th scope="col"></th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
+            <tbody class="totalCart">
+              <tr class="cartRow">
                 <th scope="row">1</th>
                 <td>Mark</td>
-                <td> <input type="number" id="quantity" name="quantity" min="1" max="5"> </td>
-                <td>$XXX</td>
+                <td> <input type="number" class="quantityItem" name="quantity" min="0" max="5" step="1" value="2"> </td>
+                <td class="cartPrice">$200</td>
+                <td><button type="button" class="btn btn-outline-danger btn-sm">Remove</button></td>
               </tr>
-              <tr>
+              <tr class="cartRow">
                 <th scope="row">2</th>
                 <td>Jacob</td>
-                <td> <input type="number" id="quantity" name="quantity" min="1" max="5"> </td>
-                <td>$XXX</td>
+                <td><input type="number" class="quantityItem" name="quantity" min="0" max="5" step="1" value="2"></td>
+                <td class="cartPrice" >$600</td>
+                <td><button type="button" class="btn btn-outline-danger btn-sm">Remove</button></td>
               </tr>
             </tbody>
             <thead>
@@ -394,7 +397,7 @@
                 <th scope="col"></th>
                 <th scope="col"></th>
                 <th scope="col">Total:</th>
-                <th scope="col">$XXXX</th>
+                <th class="total-cart-price" scope="col">$XXXX</th>
               </tr>
             </thead>
           </table>
