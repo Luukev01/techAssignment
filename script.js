@@ -15,7 +15,7 @@ for (let i=0; i<removeItems.length; i++) {
 }
 
 // remove button function -> which is called in the removeItems function button
-function removeItem () {
+function removeItem (event) {
   // event.target is the user input response
   let buttonClicked = event.target
   buttonClicked.parentElement.parentElement.remove()
