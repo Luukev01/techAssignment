@@ -4,8 +4,419 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>The One Stop Shop</title>
+    <script src="/techAssignment/script.js"></script>
+    <link rel="stylesheet" href="/techAssignment/style.css" />
   </head>
 
-  <body></body>
+  <body>
+    <!-- The Navigation Bar-->
+    <!-- Start of the Icon-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- End of the Icon -->
+
+        <!-- collapse button -->
+        <!-- <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <!-- End of collapse button -->
+
+        <!-- Start of the links -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#Clothes">Clothesimage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Heartimage</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cart">Cartimage</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of the Navigation bar -->
+
+    <!-- Start of the banner -->
+    <section class="p-5 text-center background container-fluid">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Shop Mens Shirts</h1>
+          <p class="lead"><strong>Further 20% Off</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of the banner -->
+
+    <!-- Start of the products through cards -->
+    <section class="p-5 bg-light">
+      <!-- Row #1 -->
+      <div class="row g-4" id="Clothes">
+        <!-- First Clothes card-->
+        <div class="col-md-6 col-lg-3">
+          <div class="card" style="width: 12rem">
+            <img
+              src="./images/911.jpg"
+              class="card-img-top"
+              alt="Image of First Shirt"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-1">Mark Jacobs</h5>
+              <p class="card-text mb-1">
+                French Weave Shirt
+              </p>
+              <p class="card-text mb-1">
+                $200.00
+              </p>
+              <div class="text-center">
+                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Second Clothes Card-->
+        <div class="col-md-6 col-lg-3">
+          <div class="card" style="width: 12rem">
+            <img
+              src="./images/911.jpg"
+              class="card-img-top"
+              alt="Image of First Shirt"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-1">Mark Jacobs</h5>
+              <p class="card-text mb-1">
+                French Weave Shirt
+              </p>
+              <p class="card-text mb-1">
+                $200.00
+              </p>
+              <div class="text-center">
+                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- Third Clothes Card-->
+        <div class="col-md-6 col-lg-3">
+          <div class="card" style="width: 12rem">
+            <img
+              src="./images/911.jpg"
+              class="card-img-top"
+              alt="Image of First Shirt"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-1">Mark Jacobs</h5>
+              <p class="card-text mb-1">
+                French Weave Shirt
+              </p>
+              <p class="card-text mb-1">
+                $200.00
+              </p>
+              <div class="text-center">
+                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- fourth Clothes Card-->
+        <div class="col-md-6 col-lg-3">
+          <div class="card" style="width: 12rem">
+            <img
+              src="./images/911.jpg"
+              class="card-img-top"
+              alt="Image of First Shirt"
+            />
+            <div class="card-body">
+              <h5 class="card-title mb-1">Mark Jacobs</h5>
+              <p class="card-text mb-1">
+                French Weave Shirt
+              </p>
+              <p class="card-text mb-1">
+                $200.00
+              </p>
+              <div class="text-center">
+                <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      <!-- End of Card -->
+      <!-- Break in Row-->
+      <div class="w-100"></div>
+      <!-- Break in Row-->
+      <!-- Row #2 -->
+      <!-- Fifth Clothes card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- sixth Clothes Card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Seventh Clothes Card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Eighth Clothes Card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Break in Row-->
+      <div class="w-100"></div>
+      <!-- Break in Row-->
+      <!-- Row #3 -->
+      <!-- Ninth Clothes card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- tenth Clothes Card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Eleventh Clothes Card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- twelveth Clothes Card-->
+      <div class="col-md-6 col-lg-3">
+        <div class="card" style="width: 12rem">
+          <img
+            src="./images/911.jpg"
+            class="card-img-top"
+            alt="Image of First Shirt"
+          />
+          <div class="card-body">
+            <h5 class="card-title mb-1">Mark Jacobs</h5>
+            <p class="card-text mb-1">
+              French Weave Shirt
+            </p>
+            <p class="card-text mb-1">
+              $200.00
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    <!-- End of Card -->
+    </section>
+    <!-- End of the products-->
+
+    <!-- Start of the Order Details  -->
+    <!-- line break -->
+    <hr/>
+    <!-- line break-->
+    <!-- Start of Title-->
+    <section class="p-5 text-center container-fluid">
+      <div class="jumbotron jumbotron-fluid" id="cart">
+        <div class="container">
+          <h1 class="display-4">Order Details</h1>
+        </div>
+      </div>
+    </section>
+    <!-- End of title-->
+    <!-- Start of table for the order detail-->
+    <section class="text-center justify-content-center">
+      <div class="row justify-content-center ">
+        <div class="col-sm-10  col-lg-6 rounded">
+          <table class="table table-sm">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+            </tbody>
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col">Total:</th>
+                <th scope="col">$XXXX</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of table for the order detail-->
+
+    <!-- line break -->
+    <hr/>
+    <!-- line break-->
+  <!-- End of the Order Details-->
+
+  <!-- Start of Footer -->
+  <footer class="p-2 text-blk text-center">
+    <div class="container">
+        <p id="footer"> Created by Kevin L from Generation </p>
+    </div>
+</footer>
+
+  <!-- End of Footer -->
+
+  </body>
 </html>
