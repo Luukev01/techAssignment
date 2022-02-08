@@ -1,0 +1,44 @@
+.navbar {
+  min-height: 50px;
+}
+/* Start of Card Detail */
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+.btn {
+  display: flex;
+  padding-right: 78%;
+}
+
+.card-text {
+  font-size: 0.7rem;
+}
+/* End of Card Detail */
+
+/* Start of Break Line */
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* End of Break Line */
+
+/*Start of Footer*/
+#footer {
+  font-size: 0.7rem;
+}
+
+/*End of Footer */
+
+/* Start of formbox */
+.formbox {
+  border-radius: 100px;
+}
+/* End of formbox */
