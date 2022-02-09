@@ -1,7 +1,5 @@
 <h1> Assignment - Shopping Cart </h1>
 
-<hr>
-
 <h3> The requirements completed include: </h3>
 
 1. Have a pre-populated (hard coded) array of objects as products.
