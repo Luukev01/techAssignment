@@ -80,7 +80,7 @@ function addItemToCart (itemName, itemPrice, itemBrand) {
                               <tr class="cartRow">
                               <th class = "item-name" scope="row">${itemName}</th>
                               <td class = "item-brand"> ${itemBrand}</td>
-                              <td><input type="number" class="quantityItem" name="quantity" min="0" max="5" step="1" value="2"></td>
+                              <td><input type="number" class="quantityItem" name="quantity" min="0" max="5" step="1" value="1"></td>
                               <td class="cartPrice" >${itemPrice}</td>
                               <td><button type="button" class="btn btn-outline-danger btn-sm">Remove</button></td>
                               </tr> `

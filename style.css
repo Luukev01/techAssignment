@@ -1,6 +1,12 @@
 .navbar {
   min-height: 50px;
 }
+
+.background {
+  background-image: url(/Images/Banner.png);
+  background-size: cover;
+}
+
 /* Start of Card Detail */
 .card {
   margin: 0 auto;
@@ -39,6 +45,14 @@ hr {
   font-size: 0.7rem;
 }
 
+.footerClass {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 /*End of Footer */
 
 /* Start of formbox */
@@ -46,3 +60,5 @@ hr {
   border-radius: 100px;
 }
 /* End of formbox */
+
+/* navbar image resize */
