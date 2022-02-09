@@ -57,13 +57,21 @@ function addToCartClick (event) {
   let itemContainer = clickedButton.parentElement.parentElement
   let itemName = itemContainer.getElementsByClassName('item-name')[0].innerText
   let itemPrice = itemContainer.getElementsByClassName('item-price')[0].innerText
+<<<<<<< HEAD
   let itemBrand = itemContainer.getElementsByClassName('item-brand')[0].innerText
   addItemToCart(itemName, itemPrice,itemBrand)
+=======
+  addItemToCart(itemName, itemPrice)
+>>>>>>> 1c2d9b35e3043b8d31ac5633040fd8874bd5316d
   updateCart()
 }
 
 // adding the clicked items to the cart 
+<<<<<<< HEAD
 function addItemToCart (itemName, itemPrice, itemBrand) {
+=======
+function addItemToCart (itemName, itemPrice) {
+>>>>>>> 1c2d9b35e3043b8d31ac5633040fd8874bd5316d
   let cartRow = document.createElement('tr')
   cartRow.classList.add('cartRow')
   let cartItems = document.getElementsByClassName('totalCart')[0]
@@ -79,7 +87,10 @@ function addItemToCart (itemName, itemPrice, itemBrand) {
   let wholeCartContents = `
                               <tr class="cartRow">
                               <th class = "item-name" scope="row">${itemName}</th>
+<<<<<<< HEAD
                               <td class = "item-brand"> ${itemBrand}</td>
+=======
+>>>>>>> 1c2d9b35e3043b8d31ac5633040fd8874bd5316d
                               <td><input type="number" class="quantityItem" name="quantity" min="0" max="5" step="1" value="2"></td>
                               <td class="cartPrice" >${itemPrice}</td>
                               <td><button type="button" class="btn btn-outline-danger btn-sm">Remove</button></td>
